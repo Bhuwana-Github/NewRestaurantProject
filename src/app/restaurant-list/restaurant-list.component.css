@@ -1,0 +1,10 @@
+h1{
+    margin-top: 2em ;
+    padding: 2em;
+    
+}
+.table{ 
+    column-width:5px;
+    margin-left: 5px;
+    padding: 0px;
+}

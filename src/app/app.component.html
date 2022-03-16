@@ -1,0 +1,74 @@
+<!--app-restaurant-list></app-restaurant-list>
+<h4 *ngFor="let c of colors">
+  {{c}}
+</h4-->
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary" aria-label="Main navigation">
+    <a class="navbar-brand" href="#">Restaurant Project</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+    <!--div><h4> Restaurant Project</h4>
+    </div>
+    <div >
+      <a class="navbar-brand" href="#">Restaurant App</a>
+      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button-->
+  
+      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault"  >
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="add">Add Restaurant</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="update">Update Restaurant</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="restaurantlist">List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="login">Login</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" routerLink="register">Register</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Settings</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    
+  </nav>
+</body>
+  
+<router-outlet></router-outlet>
+  <!--div class="container-fluid"-->
+  
+    <app-footer></app-footer>
+
+
+
+  <!--div class="footer">
+    <p> Copyright 2022 by bhulearning <br> 0044:35646465,  
+      <i class="fa fa-envelope" style="font-size:20px;color:bisque"></i>info@tech.com
+    </p>
+  </div-->
+  
+  
+ 
+      

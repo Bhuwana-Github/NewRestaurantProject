@@ -1,0 +1,18 @@
+
+.footer{
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: rgb(143, 6, 6);
+    background-color: rgb(94, 11, 69);
+    width:100%;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    background-color: inherit;
+    will-change: opacity,transform;
+}
+.footer p{
+    text-align: center;
+}
